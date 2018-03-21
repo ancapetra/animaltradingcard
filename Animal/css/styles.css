@@ -1,0 +1,79 @@
+body {
+	background-color: #f3f7b9;
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div {
+	padding: 0.5em;
+	border: 1px solid lightgray;
+	background-image: url("https://www.transparenttextures.com/patterns/noisy-net.png");
+	display: block;
+}
+
+img {
+	border-radius: 7px;
+	box-shadow: 2px 2px 24px -5px rgba(0,0,0,0.75);
+	display: inline-block;
+	margin-bottom: 0.3em;
+}
+
+img:hover {
+	box-shadow: 1px 1px 18px -10px rgba(232,240,74,0.4);
+}
+
+ul { 
+  	list-style-type: none;
+  	padding: 0em;	
+  	color: #e0e0e0;
+  	font-family: 'Acme', sans-serif;
+}
+
+.title {
+	text-align: center;
+	text-shadow: #fc0 1px 0 5px;
+	color: #ffff99;
+	font-family: 'Acme', sans-serif;
+}
+.title:hover {
+	text-shadow: #fc0 1px 0 15px;
+	cursor: default;
+}
+.card {
+	width: 300px;
+	border: 1px solid lightgray;
+	border-radius: 7px;
+	padding: 0.5em;
+	box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.18);
+	margin: 0 auto;
+}
+.info {
+	padding: 0.5em;
+	border-radius: 7px;
+	box-shadow: 2px 2px 24px -5px rgba(0,0,0,0.75);
+	color: #fff;
+	font-family: 'Acme', sans-serif;
+	text-align: justify;
+	background-image: url("https://www.transparenttextures.com/patterns/paper-2.png");
+}
+.info:hover {
+	box-shadow: 1px 1px 18px -10px rgba(232,240,74,0.4);
+}
+.facts {
+	font-style: italic;
+	text-align: center;
+	color: #ffff99;
+	font-family: 'Acme', sans-serif;
+	text-shadow: 1px 1px 2px grey;
+}
+.list {
+	font-weight: bold;
+	color: #ffff99;
+	font-family: 'Acme', sans-serif;
+	text-shadow: 1px 1px 2px grey;
+}
+.list:hover {
+	text-shadow: 1px 1px 2px yellow;
+}
+
